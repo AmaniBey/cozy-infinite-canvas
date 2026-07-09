@@ -3,6 +3,7 @@
 ## Unreleased
 
 + [新增] 新增 GitHub Actions CI 工作流，覆盖 Web、文档站和 Canvas Agent 的安装、检查与构建。
++ [调整] GitHub Pages 前端发布 workflow 支持 `cicd` 分支推送自动部署。
 + [调整] 将项目可见品牌、Logo、插件标识和原仓库链接替换为 Cozy Tv 与待配置占位。
 + [优化] 本地 Agent 连接说明明确区分插件 / 手动 MCP 才会增加 Codex token 消耗，直接运行 Agent 不受影响。
 + [优化] 优化本地 Agent 连接说明，区分 Codex 插件启动和直接运行 Agent 两种方式。

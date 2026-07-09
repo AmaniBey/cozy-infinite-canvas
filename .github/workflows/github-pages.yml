@@ -2,6 +2,7 @@ name: GitHub Pages
 
 on:
   push:
+    branches: ["cicd"]
     tags: ["v*"]
   workflow_dispatch:
 
